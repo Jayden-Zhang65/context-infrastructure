@@ -104,3 +104,10 @@
 Skills 采用渐进式披露原则：
 - **INDEX.md** 提供概览，快速定位
 - **具体 skill 文件** 包含完整的操作步骤和示例
+
+## 个人自定义 Skills
+| Skill | 文件 | 触发时机 |
+|-------|------|----------|
+| Telegram 碎片捕获 | telegram_capture.md | 手机输入想法/笔记时 |
+| 每日复盘 | workflow_daily_review.md | 发送"今日复盘"时 |
+| 从对话提炼 Skill | workflow_skill_capture.md | 说"写成 Skill"时 |
