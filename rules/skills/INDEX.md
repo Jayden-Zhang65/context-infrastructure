@@ -43,6 +43,7 @@
 调用外部系统或工具的操作手册。
 
 - [AI CLI Agent 实用指南](./ai_agent_cli_guide.md) — CLI Agent 设计原则、工具对比（Claude Code / Codex / OpenCode）、文件响应模式、AI 调用 AI
+- [OpenCode 多项目会话查询](./opencode_session_query.md) — 查询 `~/.local/share/opencode/opencode.db` 获取跨项目会话历史。脚本：`tools/query_opencode_sessions.py`。用于每日复盘、跨项目回顾、查找历史会话
 - [Claude Code 使用指南](./claude_code.md) — Claude Code 的默认 runtime 设置（adaptive thinking 规避）、非交互命令行调用、嵌套调用硬规则及 Timeout 管理
 - [分享报告到 Web](./share_report.md) ⚙️ — 将 MD 报告转 HTML 发布到你自己的服务器，返回 URL
 - [Apple Compressor Skill](./compressor.md) ⚙️ — 本机 Apple Compressor CLI 转码；custom preset 路径、源文件写入完成检测、batch 提交与监控
@@ -70,6 +71,7 @@
 - [延时执行技能](./delayed_execution.md) ⚙️ — 低风险 `sleep + nohup` fallback；durable/AI 延时任务见 ecosystem 的 Process Launcher + OpenCode Skill
 - [项目脚手架与重整](./project_scaffold.md) ✅ — 把散装目录升级成标准项目结构：`docs/`、`src/`、`scripts/`、`tests/`、`AGENTS.md` 与独立 git
 - [iOS UI 自动化测试工作流](./ios_ui_automation.md) — 基于 Xcode 模拟器、XCTest 与 simctl 的 iOS 界面及功能自动化验证指南
+- [LIMS 权限申请表（A036）填写](./workflow_lims_a036_form.md) — 把口述的权限变更信息填入 `MX-SMP-ZLGL-A036_03_计算机化系统权限申请表.docx`。触发：用户口述账号/工号、权限角色、可访问组清单并要求填表。脚本：`LIMS/form/fill_a036.py`
 
 ### BestPractice（最佳实践）
 
