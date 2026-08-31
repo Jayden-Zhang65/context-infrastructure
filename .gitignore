@@ -1,0 +1,20 @@
+# Secrets — never commit real credentials
+.env
+*.pem
+*.key
+credentials.json
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Databases / logs
+*.db
+*.sqlite
+*.sqlite3
+*.log
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
